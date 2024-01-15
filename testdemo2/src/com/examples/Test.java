@@ -13,10 +13,12 @@ public class Test {
 		
    	Test1 t=	(a,b)->(a+b);
    	Test1 mul=(a,b)-> a*b;
+   	Test1 sub=(a,b)->a-b;
    	
    	      int add= t.show(10,20);
    	      System.out.println("Add of Two Number is "+add);
    	      System.out.println("Multiplication of Two Numbers is "+mul.show(2,3));
+   	      System.out.println("Subtraction of two numbers is "+sub.show(20, 30));
 	}
 
 }
